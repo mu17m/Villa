@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using VillaWeb.Models;
+using WhiteLagoonWeb.Models;
 
-namespace VillaWeb.Controllers
+namespace WhiteLagoonWeb.Controllers
 {
     public class HomeController : Controller
     {

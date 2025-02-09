@@ -1,4 +1,4 @@
-namespace VillaWeb.Models
+namespace WhiteLagoonWeb.Models
 {
     public class ErrorViewModel
     {
