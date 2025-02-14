@@ -24,7 +24,10 @@ namespace WhiteLagoon.Infrastructure.Repository
         {
             dbSet.Add(entity);
         }
-
+        public bool Any(Expression<Func<T, bool>> filter)
+        {
+            return dbSet.Any(filter);
+        }
         public T Get(Expression<Func<T, bool>> filter, string? includeProperties)
         {
             IQueryable<T> query = dbSet;
@@ -41,7 +44,6 @@ namespace WhiteLagoon.Infrastructure.Repository
             }
             return query.FirstOrDefault();
         }
-
         public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter, string? includeProperties)
         {
             IQueryable<T> query = dbSet;
@@ -58,7 +60,6 @@ namespace WhiteLagoon.Infrastructure.Repository
             }
             return query.ToList();
         }
-
         public void Remove(T entity)
         {
             dbSet.Remove(entity);

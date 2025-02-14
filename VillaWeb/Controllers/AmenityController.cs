@@ -7,50 +7,49 @@ using WhiteLagoon.Infrastructure.Data;
 using WhiteLagoon.Web.ViewModels;
 namespace WhiteLagoon.Web.Controllers
 {
-    public class VillaNumberController : Controller
+    public class AmenityController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public VillaNumberController(IUnitOfWork unitOfWork)
+        public AmenityController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
         public IActionResult Index()
         {
-            var VillaNumbers = _unitOfWork.VillaNumberRepo.GetAll(includeProperties:"villa");
-            return View(VillaNumbers);
+            var Amenitys = _unitOfWork.AmenityRepo.GetAll(includeProperties:"Villa");
+            return View(Amenitys);
         }
         public IActionResult Create()
         {
-            VillaNumberVM createVM = new VillaNumberVM();
+            AmenityVM createVM = new AmenityVM();
             createVM.list = _unitOfWork.VillaRepo.GetAll().Select(
                 v => new SelectListItem
                 {
                     Text = v.Name,
                     Value = v.Id.ToString()
                 });
-            createVM.villaNumber = new VillaNumber();
             return View(createVM);
         }
         [HttpPost]
-        public IActionResult Create(VillaNumberVM objVM)
+        public IActionResult Create(AmenityVM objVM)
         {
-            bool IsVillaNumberExists = _unitOfWork.VillaNumberRepo.Any(v => v.Villa_Number == objVM.villaNumber.Villa_Number);
-            if(IsVillaNumberExists)
+            //bool IsAmenityExists = _unitOfWork.AmenityRepo.Any(v => v.Id == objVM.amenity.Id);
+            //if(IsAmenityExists)
+            //{
+            //    TempData["Error"] = "Villa Number is already exists";
+            //    objVM.list = _unitOfWork.VillaRepo.GetAll().Select(
+            //        v => new SelectListItem
+            //        {
+            //            Text = v.Name,
+            //            Value = v.Id.ToString()
+            //        });
+            //    return View(objVM);
+            //}
+            if (ModelState.IsValid )
             {
-                TempData["Error"] = "Villa Number is already exists";
-                objVM.list = _unitOfWork.VillaRepo.GetAll().Select(
-                    v => new SelectListItem
-                    {
-                        Text = v.Name,
-                        Value = v.Id.ToString()
-                    });
-                return View(objVM);
-            }
-            if (ModelState.IsValid && !IsVillaNumberExists)
-            {
-                _unitOfWork.VillaNumberRepo.Add(objVM.villaNumber);
+                _unitOfWork.AmenityRepo.Add(objVM.amenity);
                 _unitOfWork.Save();
-                TempData["Success"] = "Villa Number created successfully";
+                TempData["Success"] = "Amenity created successfully";
                 return RedirectToAction(nameof(Index));
             }
             TempData["Error"] = "An error occurred";
@@ -64,29 +63,29 @@ namespace WhiteLagoon.Web.Controllers
         }
         public IActionResult Update(int id)
         {
-            VillaNumberVM villaNumberVM = new VillaNumberVM();
+            AmenityVM villaNumberVM = new AmenityVM();
             villaNumberVM.list = _unitOfWork.VillaRepo.GetAll().Select(
                 v => new SelectListItem
                 {
                     Text = v.Name,
                     Value = v.Id.ToString()
                 });
-            villaNumberVM.villaNumber = _unitOfWork.VillaNumberRepo.Get(v => v.Villa_Number == id);
+            villaNumberVM.amenity = _unitOfWork.AmenityRepo.Get(v => v.Id == id);
             
-            if(villaNumberVM.villaNumber == null)
+            if(villaNumberVM.amenity == null)
             {
                 return RedirectToAction("Error", "Home");
             }
             return View(villaNumberVM);
         }
         [HttpPost]
-        public  IActionResult Update(VillaNumberVM villaNumberVM)
+        public  IActionResult Update(AmenityVM villaNumberVM)
         {
-            if(ModelState.IsValid && villaNumberVM.villaNumber != null)
+            if(ModelState.IsValid && villaNumberVM.amenity != null)
             {
-                _unitOfWork.VillaNumberRepo.Update(villaNumberVM.villaNumber);
+                _unitOfWork.AmenityRepo.Update(villaNumberVM.amenity);
                 _unitOfWork.Save();
-                TempData["Success"] = "Villa Number updated successfully";
+                TempData["Success"] = "Amenity updated successfully";
                 return RedirectToAction(nameof(Index));
             }
             TempData["Error"] = "An error occurred";
@@ -100,26 +99,26 @@ namespace WhiteLagoon.Web.Controllers
         }
         public IActionResult Delete(int id)
         {
-            VillaNumber? objFromDb = _unitOfWork.VillaNumberRepo.Get(v => v.Villa_Number == id);
-            objFromDb.villa = _unitOfWork.VillaRepo.Get(v => v.Id == objFromDb.VillaId);
-            if(objFromDb == null || objFromDb.villa == null)
+            Amenity? objFromDb = _unitOfWork.AmenityRepo.Get(v => v.Id == id);
+            objFromDb.Villa = _unitOfWork.VillaRepo.Get(v => v.Id == objFromDb.VillaId);
+            if(objFromDb == null || objFromDb.Villa == null)
             {
                 return RedirectToAction("Error", "Home");
             }
             return View (objFromDb);
         }
         [HttpPost]
-        public IActionResult Delete(VillaNumber obj)
+        public IActionResult Delete(Amenity obj)
         {
-            VillaNumber? objFromDb = _unitOfWork.VillaNumberRepo.Get(v => v.Villa_Number == obj.Villa_Number);
+            Amenity? objFromDb = _unitOfWork.AmenityRepo.Get(v => v.Id == obj.Id);
             if(objFromDb == null)
             {
-                TempData["Error"] = "Villa Number not found";
+                TempData["Error"] = "Amenity not found";
                 return View(obj);
             }
-            _unitOfWork.VillaNumberRepo.Remove(objFromDb);
+            _unitOfWork.AmenityRepo.Remove(objFromDb);
             _unitOfWork.Save();
-            TempData["Success"] = "Villa Number deleted successfully";
+            TempData["Success"] = "Amenity deleted successfully";
             return RedirectToAction(nameof(Index));
         }
     }

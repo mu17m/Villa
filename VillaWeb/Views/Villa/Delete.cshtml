@@ -11,7 +11,8 @@
     <div class="card-body border p-4">
         <form method="post" class="row">
             <input asp-for="@Model.Id" hidden />
-            <div class="p-3">
+            <div class="col-10">
+                <div class="p-3">
                 <div asp-validation-summary="ModelOnly"></div>
                 <div class="form-floating py-1 col-12">
                     <input asp-for="@Model.Name" readonly class="form-control border shadow" />
@@ -34,8 +35,8 @@
                     <label asp-for="@Model.Occupancy" class="ms-2"></label>
                 </div>
                 <div class="form-floating py-1 col-12">
-                    <input asp-for="@Model.ImageUrl" readonly class="form-control border shadow" />
-                    <label asp-for="@Model.ImageUrl" class="ms-2"></label>
+                    <input asp-for="@Model.Image" disabled class="form-control border shadow" />
+                    <label asp-for="@Model.Image" class="ms-2"></label>
                 </div>
                 <div class="row pt-2">
                     <div class="col-6 col-md-3">
@@ -49,6 +50,10 @@
                         </a>
                     </div>
                 </div>
+            </div>
+            </div>
+            <div class="col-2">
+                <img src="@Model.ImageUrl" width=100%/>
             </div>
         </form>
     </div>
