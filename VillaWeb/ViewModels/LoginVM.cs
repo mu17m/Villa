@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
 
 namespace WhiteLagoon.Web.ViewModels
 {
@@ -9,7 +10,9 @@ namespace WhiteLagoon.Web.ViewModels
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+        [Display(Name = "Remember Me")]
         public bool RememberMe { get; set; }
-        public string RedirectUrl { get; set; }
+        [ValidateNever]
+        public string? RedirectUrl { get; set; }
     }
 }

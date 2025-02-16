@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WhiteLagoon.Application.Common.Interfaces;
@@ -7,6 +8,7 @@ using WhiteLagoon.Infrastructure.Data;
 using WhiteLagoon.Web.ViewModels;
 namespace WhiteLagoon.Web.Controllers
 {
+    [Authorize]
     public class VillaNumberController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
