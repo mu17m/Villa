@@ -31,9 +31,21 @@
                                     if (villa.IsAvilable)
                                     {
                                         <a asp-controller="Booking" asp-action="FinalizeBooking"
- asp-route-nights="@Model.Nights" asp-route-CheckInDate="@Model.CheckInDate" asp-route-VillaId="@villa.Id" class="btn btn-success form-control btn-block">
+                                           asp-route-VillaId="@villa.Id"
+                                           asp-route-Year="@Model.CheckInDate.Year"
+                                           asp-route-Month="@Model.CheckInDate.Month"
+                                           asp-route-Day="@Model.CheckInDate.Day"
+                                           asp-route-nights="@Model.Nights"
+                                           class="btn btn-success form-control btn-block">
                                             Book
                                         </a>
+                                        @* <a asp-controller="Booking" asp-action="FinalizeBooking"
+                                        asp-route-VillaId="@villa.Id"
+                                        asp-route-checkInDate="@Model.CheckInDate"
+                                        asp-route-nights="@Model.Nights" 
+                                        class="btn btn-success form-control btn-block">
+                                            Book
+                                        </a> *@
                                     }
                                     else
                                     {
