@@ -78,17 +78,17 @@ namespace WhiteLagoon.Web.Controllers
             {
                 TempData["Error"] = "Name and Description cannot be the same";
             }
-            if(ModelState.IsValid)
-             
-            if(obj.Image != null)
+            if (ModelState.IsValid)
+            {
+                if (obj.Image != null)
                 {
                     string FileName = Guid.NewGuid().ToString() + Path.GetExtension(obj.Image.FileName);
                     string path = Path.Combine(_hostEnvironment.WebRootPath, @"Images\VillaImage");
 
-                    if(!string.IsNullOrEmpty(obj.ImageUrl))
+                    if (!string.IsNullOrEmpty(obj.ImageUrl))
                     {
                         string oldPath = Path.Combine(_hostEnvironment.WebRootPath, obj.ImageUrl.TrimStart('\\'));
-                        if(System.IO.File.Exists(oldPath))
+                        if (System.IO.File.Exists(oldPath))
                         {
                             System.IO.File.Delete(oldPath);
                         }
@@ -99,7 +99,7 @@ namespace WhiteLagoon.Web.Controllers
                         obj.ImageUrl = @"\Images\VillaImage\" + FileName;
                     }
                 }
-            {
+
                 _unitOfWork.VillaRepo.Update(obj);
                 _unitOfWork.Save();
                 TempData["Success"] = "Villa updated successfully";

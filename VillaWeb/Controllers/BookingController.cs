@@ -16,13 +16,14 @@ namespace WhiteLagoon.Web.Controllers
         {
             _unitOfWork = unitOfWork;
         }
+        [Authorize]
         public IActionResult Index()
         {
             return View();
         }
-        // I Used 3 parameters of date rather than one parameter of DateOnly because I was getting an error 
         [Authorize]
         public IActionResult FinalizeBooking(int VillaId, int Year, int Month, int Day, int nights)
+        // I Used 3 parameters of date rather than one parameter of DateOnly because I was getting an error 
         //public IActionResult FinalizeBooking(int VillaId, DateOnly checkInDate, int nights)
         {
             var ClaimIdentity = (ClaimsIdentity)User.Identity;
@@ -105,5 +106,38 @@ namespace WhiteLagoon.Web.Controllers
             }
             return View(BookingId);
         }
+        [Authorize]
+        public IActionResult Details(int Id)
+        {
+            Booking bookingFromDb = _unitOfWork.BookingRepo.Get(b => b.Id == Id, includeProperties: "Villa,User");
+            return View(bookingFromDb);
+        }
+
+        #region API calls
+        [HttpGet]
+        [Authorize]
+        public IActionResult GetAllBookings(string? status)
+        {
+            IEnumerable<Booking> bookings;
+
+            if(User.IsInRole(SD.Role_Admin))
+            {
+                bookings = _unitOfWork.BookingRepo.GetAll(includeProperties: "Villa");
+
+            }
+            else
+            {
+                var ClaimIdentity = (ClaimsIdentity)User.Identity;
+                var UserId = ClaimIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+                bookings = _unitOfWork.BookingRepo.GetAll(b => b.UserId==UserId, includeProperties: "Villa");
+            }
+            if(status != null && status != "All")
+            {
+                bookings = bookings.Where(b => b.Status == status);
+            }
+            return Json(new { data = bookings });
+        }
+        #endregion
+
     }
 }
