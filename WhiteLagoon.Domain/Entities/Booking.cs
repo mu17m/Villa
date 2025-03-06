@@ -45,5 +45,7 @@ namespace WhiteLagoon.Domain.Entities
         public DateTime AcutalCheckInDate { get; set; }
         public DateTime AcutalCheckOutDate { get; set; }
         public int VillaNumber { get; set; }
+        [NotMapped]
+        public List<VillaNumber>? villaNumbers { get; set; }
     }
 }

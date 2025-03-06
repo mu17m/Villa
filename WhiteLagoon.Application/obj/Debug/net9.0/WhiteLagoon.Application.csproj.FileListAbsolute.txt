@@ -1,0 +1,16 @@
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\bin\Debug\net9.0\WhiteLagoon.Application.deps.json
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\bin\Debug\net9.0\WhiteLagoon.Application.dll
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\bin\Debug\net9.0\WhiteLagoon.Application.pdb
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\bin\Debug\net9.0\WhiteLagoon.Domain.dll
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\bin\Debug\net9.0\WhiteLagoon.Domain.pdb
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\WhiteLagoon.Application.csproj.AssemblyReference.cache
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\WhiteLagoon.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\WhiteLagoon.Application.AssemblyInfoInputs.cache
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\WhiteLagoon.Application.AssemblyInfo.cs
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\WhiteLagoon.Application.csproj.CoreCompileInputs.cache
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\WhiteLagoon.Application.sourcelink.json
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\WhiteLag.5B63BB29.Up2Date
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\WhiteLagoon.Application.dll
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\refint\WhiteLagoon.Application.dll
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\WhiteLagoon.Application.pdb
+C:\Users\ALFA\source\repos\mu17m\Villa\WhiteLagoon.Application\obj\Debug\net9.0\ref\WhiteLagoon.Application.dll

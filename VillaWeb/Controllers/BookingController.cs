@@ -5,6 +5,7 @@ using System.Security.Claims;
 using WhiteLagoon.Application.Common.Interfaces;
 using WhiteLagoon.Application.Common.SD;
 using WhiteLagoon.Domain.Entities;
+using WhiteLagoon.Web.ViewModels;
 
 namespace WhiteLagoon.Web.Controllers
 {
@@ -56,6 +57,26 @@ namespace WhiteLagoon.Web.Controllers
             booking.Status = SD.StatusPending;
             booking.BookingDate = DateOnly.FromDateTime(DateTime.Now);
             booking.Villa = villa;
+
+            var villaNumbers = _unitOfWork.VillaNumberRepo.GetAll().ToList();
+            var bookings = _unitOfWork.BookingRepo.GetAll(b => b.Status == SD.StatusApproved || 
+            b.Status == SD.StatusCheckedIn).ToList();
+            
+            int AvailableRooms = SD.VillaRoomsAvailableCount(villa.Id, villaNumbers, bookings, booking.Nights, booking.CheckInDate);
+            villa.IsAvilable = AvailableRooms > 0 ? true : false;
+            
+            if(villa.IsAvilable == false)
+            {
+                TempData["Error"] = "Booking Failed: Villa is not avilable for the selected dates";
+                return RedirectToAction(nameof(FinalizeBooking),
+                    new{
+                        Villas = booking.Villa,
+                        CheckInDate = booking.CheckInDate,
+                        Nights = booking.Nights
+                    });
+            
+            }
+
             _unitOfWork.BookingRepo.Add(booking);
             _unitOfWork.Save();
 
@@ -99,7 +120,7 @@ namespace WhiteLagoon.Web.Controllers
                 Session session = service.Get(bookingFromDb.StripSessionId);
                 if(session.PaymentStatus == "paid")
                 {
-                    _unitOfWork.BookingRepo.UpdateBookingStatus(BookingId, SD.StatusApproved);
+                    _unitOfWork.BookingRepo.UpdateBookingStatus(BookingId, SD.StatusApproved, 0);
                     _unitOfWork.BookingRepo.UpdateStripePaymentIntentId(BookingId, session.Id, session.PaymentIntentId);
                     _unitOfWork.Save();
                 }
@@ -110,9 +131,57 @@ namespace WhiteLagoon.Web.Controllers
         public IActionResult Details(int Id)
         {
             Booking bookingFromDb = _unitOfWork.BookingRepo.Get(b => b.Id == Id, includeProperties: "Villa,User");
+            if(bookingFromDb.VillaNumber == 0)
+            {
+                // returns the villa numbers as int
+                var avilableVillaNumbers = AvilableVillaNumbers(bookingFromDb.VillaId);
+                // assign VillaNumbers member of Booking model
+                bookingFromDb.villaNumbers = _unitOfWork.VillaNumberRepo.GetAll(vn => vn.VillaId == bookingFromDb.VillaId
+                && avilableVillaNumbers.Any(avilableVillaNumbers => avilableVillaNumbers == vn.Villa_Number)).ToList();
+            }
             return View(bookingFromDb);
         }
+        [HttpPost]
+        [Authorize(Roles =SD.Role_Admin)]
+        public IActionResult CheckIn(Booking booking)
+        {
+            _unitOfWork.BookingRepo.UpdateBookingStatus(booking.Id, SD.StatusCheckedIn, booking.VillaNumber);
+            _unitOfWork.Save();
+            TempData["Success"] = "CheckIn Successful";
+            return RedirectToAction(nameof(Details), new {Id = booking.Id});
+        }
+        public IActionResult CheckOut(Booking booking)
+        {
+            _unitOfWork.BookingRepo.UpdateBookingStatus(booking.Id, SD.StatusCompleted, booking.VillaNumber);
+            _unitOfWork.Save();
+            TempData["Success"] = "Booking Completed Successful";
+            return RedirectToAction(nameof(Details), new {Id = booking.Id});
+        }
+        public IActionResult Cancel(Booking booking)
+        {
+            _unitOfWork.BookingRepo.UpdateBookingStatus(booking.Id, SD.StatusCancelled, 0);
+            _unitOfWork.Save();
+            TempData["Success"] = "Booking Canclled Successful";
+            return RedirectToAction(nameof(Details), new {Id = booking.Id});
+        }
 
+        private List<int> AvilableVillaNumbers(int VillaId)
+        {
+            List<int> avilableVillaNumbers = new();
+            var villaNumbers = _unitOfWork.VillaNumberRepo.GetAll(vn => vn.VillaId == VillaId);
+            // returns all the villa numbers that are booked and checked in and if the villa number is not in the list of booked villa numbers then add it to the avilableVillaNumbers list
+            var AllBookedVillaNumbers = _unitOfWork.BookingRepo.GetAll(b => b.VillaId == VillaId && b.Status == SD.StatusCheckedIn)
+                .Select(b => b.VillaNumber);
+
+            foreach(var villaNumber in villaNumbers)
+            {
+                if (!AllBookedVillaNumbers.Contains(villaNumber.Villa_Number))
+                {
+                    avilableVillaNumbers.Add(villaNumber.Villa_Number);
+                }
+            }
+            return avilableVillaNumbers;
+        }
         #region API calls
         [HttpGet]
         [Authorize]
