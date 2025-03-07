@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\css\\Spinner.css"
     },
     {
+      "Id": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\css\\apexcharts.css",
+      "PackagePath": "staticwebassets\\css\\apexcharts.css"
+    },
+    {
       "Id": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -87,6 +91,18 @@
     {
       "Id": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\Booking.js",
       "PackagePath": "staticwebassets\\js\\Booking.js"
+    },
+    {
+      "Id": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\apexcharts.js",
+      "PackagePath": "staticwebassets\\js\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\radialBarChart.js",
+      "PackagePath": "staticwebassets\\js\\bookingsCharts\\radialBarChart.js"
+    },
+    {
+      "Id": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\totalBookingsChart.js",
+      "PackagePath": "staticwebassets\\js\\bookingsCharts\\totalBookingsChart.js"
     },
     {
       "Id": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\site.js",

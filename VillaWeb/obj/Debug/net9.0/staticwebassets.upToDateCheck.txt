@@ -11,6 +11,7 @@ C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\b
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\js\bookingsCharts\radialBarChart.js
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\css\Spinner.css
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
@@ -38,6 +39,7 @@ C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\b
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\jquery\dist\jquery.js
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\js\apexcharts.js
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
@@ -56,12 +58,15 @@ C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\jquery-validation\LI
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\css\apexcharts.css
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\js\bookingsCharts\totalBookingsChart.js
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\css\apexcharts.css
 wwwroot\css\site.css
 wwwroot\css\Spinner.css
 wwwroot\favicon.ico
@@ -82,7 +87,10 @@ wwwroot\Images\slide2.jpg
 wwwroot\Images\VillaImage\65f9d876-0163-4c16-a9e2-d58689ecdf9e.jpg
 wwwroot\Images\VillaImage\bf5c0642-c117-462b-aa32-a1525c008f42.jpg
 wwwroot\Images\VillaImage\f8f1d4d3-8554-412d-a69e-b7551a8abf33.jpg
+wwwroot\js\apexcharts.js
 wwwroot\js\Booking.js
+wwwroot\js\bookingsCharts\radialBarChart.js
+wwwroot\js\bookingsCharts\totalBookingsChart.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

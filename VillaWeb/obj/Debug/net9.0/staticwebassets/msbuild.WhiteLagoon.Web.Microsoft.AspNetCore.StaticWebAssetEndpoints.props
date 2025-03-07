@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/css/apexcharts.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\apexcharts.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l\u002BxkqykcV8a22g04B\u002BVpt4JFWcHlwGAnBi2SCI\u002BlsPs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l\u002BxkqykcV8a22g04B\u002BVpt4JFWcHlwGAnBi2SCI\u002BlsPs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 18:39:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/css/apexcharts.df8nh60c4u.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\apexcharts.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"df8nh60c4u"},{"Name":"integrity","Value":"sha256-l\u002BxkqykcV8a22g04B\u002BVpt4JFWcHlwGAnBi2SCI\u002BlsPs="},{"Name":"label","Value":"_content/WhiteLagoon.Web/css/apexcharts.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l\u002BxkqykcV8a22g04B\u002BVpt4JFWcHlwGAnBi2SCI\u002BlsPs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 18:39:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -240,6 +252,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YPumyAutWHdtvgm2ap35X\u002BebwzsE7kbBPZ0TpCo8FGo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"328905"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YPumyAutWHdtvgm2ap35X\u002BebwzsE7kbBPZ0TpCo8FGo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 21:32:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/js/apexcharts.hxurebd9mq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\apexcharts.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hxurebd9mq"},{"Name":"integrity","Value":"sha256-Vb\u002BRdvwaoZV4ailCwtkiJ1G\u002BZbwAox22Oy15YZFtqsQ="},{"Name":"label","Value":"_content/WhiteLagoon.Web/js/apexcharts.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1325283"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Vb\u002BRdvwaoZV4ailCwtkiJ1G\u002BZbwAox22Oy15YZFtqsQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 13:47:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/js/apexcharts.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\apexcharts.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Vb\u002BRdvwaoZV4ailCwtkiJ1G\u002BZbwAox22Oy15YZFtqsQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1325283"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Vb\u002BRdvwaoZV4ailCwtkiJ1G\u002BZbwAox22Oy15YZFtqsQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 13:47:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/js/Booking.3jg13i1sfu.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Booking.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -251,6 +275,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EXtN3tY7kleaaqHexAmZyQ4xNlCikZnObxJJJ5jkt5I="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1218"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EXtN3tY7kleaaqHexAmZyQ4xNlCikZnObxJJJ5jkt5I=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 17:11:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/js/bookingsCharts/radialBarChart.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bookingsCharts\radialBarChart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1399"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 18:30:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/js/bookingsCharts/radialBarChart.tbazqjz398.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bookingsCharts\radialBarChart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tbazqjz398"},{"Name":"integrity","Value":"sha256-CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60="},{"Name":"label","Value":"_content/WhiteLagoon.Web/js/bookingsCharts/radialBarChart.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1399"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 18:30:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/js/bookingsCharts/totalBookingsChart.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bookingsCharts\totalBookingsChart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Bvpp9XBmKzt1xd7i\u002Bg23lGfUpikYpOPXWpKvLYDK6PA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1222"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Bvpp9XBmKzt1xd7i\u002Bg23lGfUpikYpOPXWpKvLYDK6PA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 18:06:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/js/bookingsCharts/totalBookingsChart.ypm8p3bilq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bookingsCharts\totalBookingsChart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ypm8p3bilq"},{"Name":"integrity","Value":"sha256-Bvpp9XBmKzt1xd7i\u002Bg23lGfUpikYpOPXWpKvLYDK6PA="},{"Name":"label","Value":"_content/WhiteLagoon.Web/js/bookingsCharts/totalBookingsChart.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1222"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Bvpp9XBmKzt1xd7i\u002Bg23lGfUpikYpOPXWpKvLYDK6PA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 18:06:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WhiteLagoon.Web/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

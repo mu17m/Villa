@@ -227,3 +227,7 @@ C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\obj\Debug\net9.0\scopedcss\Views
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\obj\Debug\net9.0\compressed\iwwrd2g6qq-0yvnte7r5o.gz
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\obj\Debug\net9.0\compressed\pcftmdal0g-0yvnte7r5o.gz
 C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\obj\Debug\net9.0\compressed\37opvgy2jb-d3hccbsmlp.gz
+C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\obj\Debug\net9.0\compressed\vznt32n5xt-df8nh60c4u.gz
+C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\obj\Debug\net9.0\compressed\ntnxnfy6v8-hxurebd9mq.gz
+C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\obj\Debug\net9.0\compressed\xqh0jlh4mv-ypm8p3bilq.gz
+C:\Users\ALFA\source\repos\mu17m\Villa\VillaWeb\obj\Debug\net9.0\compressed\7vi84ffwwc-tbazqjz398.gz

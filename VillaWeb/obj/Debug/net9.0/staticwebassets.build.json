@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WzItzvt53HSVrcCPlcp5jiacmgwa9F9i+MUdOy3MgcY=",
+  "Hash": "D0HgTBttz02YcAGlGGmsMGUnA62pe1B5QYlmj36Yees=",
   "Source": "WhiteLagoon.Web",
   "BasePath": "_content/WhiteLagoon.Web",
   "Mode": "Default",
@@ -288,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\7vi84ffwwc-tbazqjz398.gz",
+      "SourceId": "WhiteLagoon.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WhiteLagoon.Web",
+      "RelativePath": "js/bookingsCharts/radialBarChart#[.{fingerprint=tbazqjz398}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\radialBarChart.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y2xne8df6v",
+      "Integrity": "xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\radialBarChart.js"
     },
     {
       "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\7zsqo7wbn2-hrwsygsryq.gz",
@@ -878,6 +899,27 @@
       "OriginalItemSpec": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
+      "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\ntnxnfy6v8-hxurebd9mq.gz",
+      "SourceId": "WhiteLagoon.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WhiteLagoon.Web",
+      "RelativePath": "js/apexcharts#[.{fingerprint=hxurebd9mq}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\apexcharts.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ph9uhuz03d",
+      "Integrity": "c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\apexcharts.js"
+    },
+    {
       "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\nvz5n5yqi2-sejl45xvog.gz",
       "SourceId": "WhiteLagoon.Web",
       "SourceType": "Discovered",
@@ -1277,6 +1319,27 @@
       "OriginalItemSpec": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\vznt32n5xt-df8nh60c4u.gz",
+      "SourceId": "WhiteLagoon.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WhiteLagoon.Web",
+      "RelativePath": "css/apexcharts#[.{fingerprint=df8nh60c4u}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\css\\apexcharts.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2z44skp7js",
+      "Integrity": "Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\css\\apexcharts.css"
+    },
+    {
       "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\w0ke0lpaxs-worgj0nhwm.gz",
       "SourceId": "WhiteLagoon.Web",
       "SourceType": "Discovered",
@@ -1296,6 +1359,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\xqh0jlh4mv-ypm8p3bilq.gz",
+      "SourceId": "WhiteLagoon.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WhiteLagoon.Web",
+      "RelativePath": "js/bookingsCharts/totalBookingsChart#[.{fingerprint=ypm8p3bilq}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\totalBookingsChart.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "kqbaox19km",
+      "Integrity": "7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\totalBookingsChart.js"
     },
     {
       "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\xypy3ewrxa-j5mq2jizvt.gz",
@@ -1443,6 +1527,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\WhiteLagoon.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\css\\apexcharts.css",
+      "SourceId": "WhiteLagoon.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\",
+      "BasePath": "_content/WhiteLagoon.Web",
+      "RelativePath": "css/apexcharts#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "df8nh60c4u",
+      "Integrity": "l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\apexcharts.css"
     },
     {
       "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\css\\site.css",
@@ -1865,6 +1970,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\VillaImage\\f8f1d4d3-8554-412d-a69e-b7551a8abf33.jpg"
     },
     {
+      "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\apexcharts.js",
+      "SourceId": "WhiteLagoon.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\",
+      "BasePath": "_content/WhiteLagoon.Web",
+      "RelativePath": "js/apexcharts#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hxurebd9mq",
+      "Integrity": "Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\apexcharts.js"
+    },
+    {
       "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\Booking.js",
       "SourceId": "WhiteLagoon.Web",
       "SourceType": "Discovered",
@@ -1884,6 +2010,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Booking.js"
+    },
+    {
+      "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\radialBarChart.js",
+      "SourceId": "WhiteLagoon.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\",
+      "BasePath": "_content/WhiteLagoon.Web",
+      "RelativePath": "js/bookingsCharts/radialBarChart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tbazqjz398",
+      "Integrity": "CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bookingsCharts\\radialBarChart.js"
+    },
+    {
+      "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\totalBookingsChart.js",
+      "SourceId": "WhiteLagoon.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\",
+      "BasePath": "_content/WhiteLagoon.Web",
+      "RelativePath": "js/bookingsCharts/totalBookingsChart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ypm8p3bilq",
+      "Integrity": "Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bookingsCharts\\totalBookingsChart.js"
     },
     {
       "Identity": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\site.js",
@@ -3168,6 +3336,304 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/apexcharts.css",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\vznt32n5xt-df8nh60c4u.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000393545848"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs="
+        }
+      ]
+    },
+    {
+      "Route": "css/apexcharts.css",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\css\\apexcharts.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs="
+        }
+      ]
+    },
+    {
+      "Route": "css/apexcharts.css.gz",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\vznt32n5xt-df8nh60c4u.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc="
+        }
+      ]
+    },
+    {
+      "Route": "css/apexcharts.df8nh60c4u.css",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\vznt32n5xt-df8nh60c4u.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000393545848"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "df8nh60c4u"
+        },
+        {
+          "Name": "label",
+          "Value": "css/apexcharts.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs="
+        }
+      ]
+    },
+    {
+      "Route": "css/apexcharts.df8nh60c4u.css",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\css\\apexcharts.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "df8nh60c4u"
+        },
+        {
+          "Name": "label",
+          "Value": "css/apexcharts.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs="
+        }
+      ]
+    },
+    {
+      "Route": "css/apexcharts.df8nh60c4u.css.gz",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\vznt32n5xt-df8nh60c4u.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "df8nh60c4u"
+        },
+        {
+          "Name": "label",
+          "Value": "css/apexcharts.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc="
+        }
+      ]
+    },
     {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\37opvgy2jb-d3hccbsmlp.gz",
@@ -5457,6 +5923,304 @@
       ]
     },
     {
+      "Route": "js/apexcharts.hxurebd9mq.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\ntnxnfy6v8-hxurebd9mq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000003726282"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268363"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hxurebd9mq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/apexcharts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.hxurebd9mq.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\apexcharts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1325283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hxurebd9mq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/apexcharts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.hxurebd9mq.js.gz",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\ntnxnfy6v8-hxurebd9mq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268363"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hxurebd9mq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/apexcharts.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE="
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\ntnxnfy6v8-hxurebd9mq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000003726282"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268363"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\apexcharts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1325283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.js.gz",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\ntnxnfy6v8-hxurebd9mq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268363"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE="
+        }
+      ]
+    },
+    {
       "Route": "js/Booking.3jg13i1sfu.js",
       "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\gajjnjrmlg-3jg13i1sfu.gz",
       "Selectors": [
@@ -5751,6 +6515,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-fyZXdKSXZQSnraKzcdvyBRYeCqJBpmxi6l8anufmhH0="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\7vi84ffwwc-tbazqjz398.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001908396947"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\radialBarChart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.js.gz",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\7vi84ffwwc-tbazqjz398.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.tbazqjz398.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\7vi84ffwwc-tbazqjz398.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001908396947"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbazqjz398"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/radialBarChart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.tbazqjz398.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\radialBarChart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbazqjz398"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/radialBarChart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.tbazqjz398.js.gz",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\7vi84ffwwc-tbazqjz398.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbazqjz398"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/radialBarChart.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\xqh0jlh4mv-ypm8p3bilq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002087682672"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\totalBookingsChart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.js.gz",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\xqh0jlh4mv-ypm8p3bilq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.ypm8p3bilq.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\xqh0jlh4mv-ypm8p3bilq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002087682672"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypm8p3bilq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/totalBookingsChart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.ypm8p3bilq.js",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\wwwroot\\js\\bookingsCharts\\totalBookingsChart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypm8p3bilq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/totalBookingsChart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.ypm8p3bilq.js.gz",
+      "AssetFile": "C:\\Users\\ALFA\\source\\repos\\mu17m\\Villa\\VillaWeb\\obj\\Debug\\net9.0\\compressed\\xqh0jlh4mv-ypm8p3bilq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypm8p3bilq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/totalBookingsChart.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY="
         }
       ]
     },

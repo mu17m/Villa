@@ -1993,6 +1993,304 @@
       ]
     },
     {
+      "Route": "css/apexcharts.css",
+      "AssetFile": "css/apexcharts.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000393545848"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs="
+        }
+      ]
+    },
+    {
+      "Route": "css/apexcharts.css",
+      "AssetFile": "css/apexcharts.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs="
+        }
+      ]
+    },
+    {
+      "Route": "css/apexcharts.css.gz",
+      "AssetFile": "css/apexcharts.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc="
+        }
+      ]
+    },
+    {
+      "Route": "css/apexcharts.df8nh60c4u.css",
+      "AssetFile": "css/apexcharts.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000393545848"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "df8nh60c4u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs="
+        },
+        {
+          "Name": "label",
+          "Value": "css/apexcharts.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/apexcharts.df8nh60c4u.css",
+      "AssetFile": "css/apexcharts.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "df8nh60c4u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+xkqykcV8a22g04B+Vpt4JFWcHlwGAnBi2SCI+lsPs="
+        },
+        {
+          "Name": "label",
+          "Value": "css/apexcharts.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/apexcharts.df8nh60c4u.css.gz",
+      "AssetFile": "css/apexcharts.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 18:39:44 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "df8nh60c4u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lq4kfY8wXFouly5GxUvCzDwTeWcGFX9uYWzqFILmKIc="
+        },
+        {
+          "Name": "label",
+          "Value": "css/apexcharts.css.gz"
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "css/site.css.gz",
       "Selectors": [
@@ -2883,6 +3181,900 @@
         {
           "Name": "integrity",
           "Value": "sha256-fyZXdKSXZQSnraKzcdvyBRYeCqJBpmxi6l8anufmhH0="
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.hxurebd9mq.js",
+      "AssetFile": "js/apexcharts.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000003726282"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268363"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hxurebd9mq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ="
+        },
+        {
+          "Name": "label",
+          "Value": "js/apexcharts.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.hxurebd9mq.js",
+      "AssetFile": "js/apexcharts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1325283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hxurebd9mq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ="
+        },
+        {
+          "Name": "label",
+          "Value": "js/apexcharts.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.hxurebd9mq.js.gz",
+      "AssetFile": "js/apexcharts.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268363"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hxurebd9mq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE="
+        },
+        {
+          "Name": "label",
+          "Value": "js/apexcharts.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.js",
+      "AssetFile": "js/apexcharts.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000003726282"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268363"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.js",
+      "AssetFile": "js/apexcharts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1325283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vb+RdvwaoZV4ailCwtkiJ1G+ZbwAox22Oy15YZFtqsQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/apexcharts.js.gz",
+      "AssetFile": "js/apexcharts.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268363"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:47:48 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c1txZ16XjlTfzCExQAZ86wW7yUB3Gfv0uHziHEhW+FE="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.js",
+      "AssetFile": "js/bookingsCharts/radialBarChart.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001908396947"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.js",
+      "AssetFile": "js/bookingsCharts/radialBarChart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.js.gz",
+      "AssetFile": "js/bookingsCharts/radialBarChart.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.tbazqjz398.js",
+      "AssetFile": "js/bookingsCharts/radialBarChart.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001908396947"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbazqjz398"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60="
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/radialBarChart.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.tbazqjz398.js",
+      "AssetFile": "js/bookingsCharts/radialBarChart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbazqjz398"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZWgrq1TRsYbKgz59T1RORSc2/c5GMhsrVUcBla5/60="
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/radialBarChart.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/radialBarChart.tbazqjz398.js.gz",
+      "AssetFile": "js/bookingsCharts/radialBarChart.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:30:53 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbazqjz398"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xnrnxIsZtvnR0JD6+hLxyFXtiQobAAZ/0yb9AumvlzE="
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/radialBarChart.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.js",
+      "AssetFile": "js/bookingsCharts/totalBookingsChart.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002087682672"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.js",
+      "AssetFile": "js/bookingsCharts/totalBookingsChart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.js.gz",
+      "AssetFile": "js/bookingsCharts/totalBookingsChart.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY="
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.ypm8p3bilq.js",
+      "AssetFile": "js/bookingsCharts/totalBookingsChart.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002087682672"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypm8p3bilq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA="
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/totalBookingsChart.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.ypm8p3bilq.js",
+      "AssetFile": "js/bookingsCharts/totalBookingsChart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypm8p3bilq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bvpp9XBmKzt1xd7i+g23lGfUpikYpOPXWpKvLYDK6PA="
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/totalBookingsChart.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/bookingsCharts/totalBookingsChart.ypm8p3bilq.js.gz",
+      "AssetFile": "js/bookingsCharts/totalBookingsChart.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 18:06:22 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypm8p3bilq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7OXInPv7LBJgJNnC0djQCuCJV1Uxerj5aCneA+UzVQY="
+        },
+        {
+          "Name": "label",
+          "Value": "js/bookingsCharts/totalBookingsChart.js.gz"
         }
       ]
     },
