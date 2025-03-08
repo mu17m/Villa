@@ -1,15 +1,15 @@
 ﻿$(document).ready(function () {
-    loadTotalBookingsRadialChart();
+    loadTotalUsersRadialChart();
 });
 
-function loadTotalBookingsRadialChart() {
+function loadTotalUsersRadialChart() {
     $(".chart-spinner").show();
     $.ajax({
-        url: "/Dashboard/GetTotalBookingsForCharts",
+        url: "/Dashboard/GetTotalUsersForChartData",
         type: "GET",
         dataType: "json",
         success: function (data) {
-            document.querySelector("#spanTotalBookingCount").innerHTML = data.totalCount;
+            document.querySelector("#spanTotalUserCount").innerHTML = data.totalCount;
 
             var sectionCurrentCount = document.createElement("span");
             if (data.hasRationIncreased) {
@@ -20,9 +20,9 @@ function loadTotalBookingsRadialChart() {
                 sectionCurrentCount.className = "text-danger me-1";
                 sectionCurrentCount.innerHTML = '<i class="bi bi-arrow-down-right-circle me-1"></i> <span> ' + data.countInCurrentMonth + '</span>';
             }
-            document.querySelector("#sectionBookingCount").append(sectionCurrentCount);
+            document.querySelector("#sectionUserCount").append(sectionCurrentCount);
             $(".chart-spinner").hide();
-            loadRedialBarChart("#totalBookingRadialChart", data);
+            loadRedialBarChart("#totalUserRadialChart", data);
         }
     });
 }
