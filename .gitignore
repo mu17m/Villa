@@ -5,3 +5,6 @@
 /VillaWeb/appsettings.json
 /.vs
 /VillaWeb/bin/Debug/net9.0
+/VillaWeb/obj/Debug/net9.0/compressed
+/WhiteLagoon.Application/bin/Debug/net9.0
+/WhiteLagoon.Infrastructure/bin/Debug/net9.0
