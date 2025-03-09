@@ -28,9 +28,17 @@ namespace WhiteLagoon.Infrastructure.Repository
         {
             return dbSet.Any(filter);
         }
-        public T Get(Expression<Func<T, bool>> filter, string? includeProperties)
+        public T Get(Expression<Func<T, bool>> filter, string? includeProperties, bool tracking = false)
         {
-            IQueryable<T> query = dbSet;
+            IQueryable<T> query;
+            if(tracking)
+            {
+                query = dbSet;
+            }
+            else
+            {
+                query = dbSet.AsNoTracking();
+            }
             if (filter != null)
             {
                 query = query.Where(filter);
@@ -44,9 +52,17 @@ namespace WhiteLagoon.Infrastructure.Repository
             }
             return query.FirstOrDefault();
         }
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter, string? includeProperties)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter, string? includeProperties, bool tracking = false)
         {
-            IQueryable<T> query = dbSet;
+            IQueryable<T> query;
+            if(tracking)
+            {
+                query = dbSet;
+            }
+            else
+            {
+                query = dbSet.AsNoTracking();
+            }
             if (filter != null)
             {
                 query = query.Where(filter);

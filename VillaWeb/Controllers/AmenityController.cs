@@ -36,26 +36,14 @@ namespace WhiteLagoon.Web.Controllers
         [HttpPost]
         public IActionResult Create(AmenityVM objVM)
         {
-            //bool IsAmenityExists = _unitOfWork.AmenityRepo.Any(v => v.Id == objVM.amenity.Id);
-            //if(IsAmenityExists)
-            //{
-            //    TempData["Error"] = "Villa Number is already exists";
-            //    objVM.list = _unitOfWork.VillaRepo.GetAll().Select(
-            //        v => new SelectListItem
-            //        {
-            //            Text = v.Name,
-            //            Value = v.Id.ToString()
-            //        });
-            //    return View(objVM);
-            //}
-            if (ModelState.IsValid )
+            if (ModelState.IsValid && objVM.amenity != null)
             {
                 _unitOfWork.AmenityRepo.Add(objVM.amenity);
                 _unitOfWork.Save();
                 TempData["Success"] = "Amenity created successfully";
                 return RedirectToAction(nameof(Index));
             }
-            TempData["Error"] = "An error occurred";
+            TempData["Error"] = "Model is NOT valid";
             objVM.list = _unitOfWork.VillaRepo.GetAll().Select(
                 v => new SelectListItem
                 {
@@ -91,7 +79,7 @@ namespace WhiteLagoon.Web.Controllers
                 TempData["Success"] = "Amenity updated successfully";
                 return RedirectToAction(nameof(Index));
             }
-            TempData["Error"] = "An error occurred";
+            TempData["Error"] = "Model is NOT valid";
             villaNumberVM.list = _unitOfWork.VillaRepo.GetAll().Select(
                     v => new SelectListItem
                     {

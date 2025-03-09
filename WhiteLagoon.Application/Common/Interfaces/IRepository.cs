@@ -10,8 +10,8 @@ namespace WhiteLagoon.Application.Common.Interfaces
 {
     public interface IRepository<T> where T : class
     {
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperties = null);
-        public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null);
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperties = null, bool tracking = false);
+        public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null, bool tracking = false);
         public void Add(T entity);
         public void Remove(T entity);
         bool Any(Expression<Func<T, bool>> filter);

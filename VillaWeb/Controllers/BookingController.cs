@@ -164,7 +164,6 @@ namespace WhiteLagoon.Web.Controllers
             TempData["Success"] = "Booking Canclled Successful";
             return RedirectToAction(nameof(Details), new {Id = booking.Id});
         }
-
         private List<int> AvilableVillaNumbers(int VillaId)
         {
             List<int> avilableVillaNumbers = new();
@@ -181,6 +180,45 @@ namespace WhiteLagoon.Web.Controllers
                 }
             }
             return avilableVillaNumbers;
+        }
+        public IActionResult ExportBooking(int id)
+        {
+            Booking booking = _unitOfWork.BookingRepo.Get(b => b.Id == id, includeProperties:"User");
+            booking.Villa = _unitOfWork.VillaRepo.Get(v => v.Id == booking.VillaId);
+            if(booking == null)
+            {
+                return RedirectToAction("Error", "Home");
+            }
+            string templatePath = "wwwroot/templates/BookingDetails.docx"; // Ensure this file exists
+
+            if (string.IsNullOrEmpty(booking.Phone))
+            {
+                booking.Phone = "";
+            }
+            var replacements = new Dictionary<string, string>
+    {
+        { "xx_booking_Number", "Booking ID - " + booking.Id.ToString()},
+        { "xx_BOOKING_Date", booking.BookingDate.ToShortDateString() },
+        { "xx_customer_name", booking.User.Name },
+        { "xx_customer_phone", booking.Phone },
+        { "xx_customer_email", booking.Email },
+        { "xx_payment_date", booking.PaymentDate.ToShortDateString() },
+        { "xx_checkin_date", booking.CheckInDate.ToShortDateString() },
+        { "xx_checkout_date", booking.CheckOutDate.ToShortDateString() },
+        { "xx_booking_total", booking.TotalCost.ToString("c") }
+    };
+
+            // Sample table data
+            var tableData = new List<List<string>>
+    {
+        new List<string> { "NIGHTS", "VILLA", "PRICE PER NIGHT", "TOTAL" },
+        new List<string> { booking.Nights.ToString(), booking.Villa.Name, (booking.TotalCost/booking.Nights).ToString("c"), booking.TotalCost.ToString("c") }
+    };
+
+            WordExportService wordExportService = new WordExportService();
+            byte[] fileContents = wordExportService.GenerateBookingDocument(templatePath, replacements, tableData);
+
+            return File(fileContents, "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "BookingDetails.docx");
         }
         #region API calls
         [HttpGet]
