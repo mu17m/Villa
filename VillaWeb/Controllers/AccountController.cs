@@ -72,11 +72,11 @@ namespace WhiteLagoon.Web.Controllers
         }
         public IActionResult Register(string? ReturnUrl = null)
         {
-            if(!_roleManager.RoleExistsAsync("Admin").GetAwaiter().GetResult())
-            {
-                _roleManager.CreateAsync(new IdentityRole("Admin")).Wait();
-                _roleManager.CreateAsync(new IdentityRole("Customer")).Wait();
-            }
+            //if(!_roleManager.RoleExistsAsync("Admin").GetAwaiter().GetResult())
+            //{
+            //    _roleManager.CreateAsync(new IdentityRole("Admin")).Wait();
+            //    _roleManager.CreateAsync(new IdentityRole("Customer")).Wait();
+            //}
             RegisterVM registerVM = new RegisterVM()
             {
                 RoleList = _roleManager.Roles.Select(r => new SelectListItem

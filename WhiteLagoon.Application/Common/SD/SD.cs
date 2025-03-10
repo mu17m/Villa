@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WhiteLagoon.Domain.Entities;
+using WhiteLagoon.Web.ViewModels;
 
 namespace WhiteLagoon.Application.Common.SD
 {
@@ -53,6 +54,21 @@ namespace WhiteLagoon.Application.Common.SD
                 }
             }
                 return finalAvilableRoomsForAllNights;
+        }
+        public static RadialChartDto GetRadialChartDataModel(int totalCounts, int countByCurrentMonth, int countByPreviusMonth)
+        {
+            RadialChartDto radialBarChar = new();
+            int IncreaseDecreaseRation = 100;
+            if (countByPreviusMonth != 0)
+            {
+                IncreaseDecreaseRation = Convert.ToInt32(countByCurrentMonth - countByPreviusMonth / countByPreviusMonth * 100);
+            }
+            radialBarChar.TotalCount = totalCounts;
+            radialBarChar.CountInCurrentMonth = countByCurrentMonth;
+            radialBarChar.HasRationIncreased = countByCurrentMonth > countByPreviusMonth;
+            radialBarChar.Series = new int[] { IncreaseDecreaseRation };
+
+            return radialBarChar;
         }
     }
 }
