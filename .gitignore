@@ -8,3 +8,9 @@
 /VillaWeb/obj/Debug/net9.0/compressed
 /WhiteLagoon.Application/bin/Debug/net9.0
 /WhiteLagoon.Infrastructure/bin/Debug/net9.0
+/WhiteLagoon.Application/Common/Interfaces/IDbInitializer.cs
+/WhiteLagoon.Infrastructure/Repository/DbInitializer.cs
+/VillaWeb/obj/Release/net9.0
+/WhiteLagoon.Application/obj/Release/net9.0
+/WhiteLagoon.Domain/obj/Release/net9.0
+/WhiteLagoon.Infrastructure/obj/Release/net9.0
