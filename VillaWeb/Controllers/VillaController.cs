@@ -12,18 +12,16 @@ namespace WhiteLagoon.Web.Controllers
     [Authorize]
     public class VillaController : Controller
     {
-        private readonly IVillaService _villaService;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _hostEnvironment;
-        public VillaController(IUnitOfWork unitOfWork, IWebHostEnvironment hostEnvironment, IVillaService villaService)
+        public VillaController(IUnitOfWork unitOfWork, IWebHostEnvironment hostEnvironment)
         {
             _unitOfWork = unitOfWork;
             _hostEnvironment = hostEnvironment;
-            _villaService = villaService;
         }
         public IActionResult Index()
         {
-            var Villas = _villaService.GetAllVillas();
+            var Villas = _unitOfWork.VillaRepo.GetAll();
             return View(Villas);
         }
         public IActionResult Create()
@@ -35,7 +33,25 @@ namespace WhiteLagoon.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                _villaService.CreateVilla(obj);
+                if (obj.Image != null)
+                {
+                    // FIleName is the Name of Image
+                    string FileName = Guid.NewGuid().ToString() + Path.GetExtension(obj.Image.FileName);
+                    // path is the image location
+                    string path = Path.Combine(_hostEnvironment.WebRootPath, @"Images\VillaImage");
+                    // fileStream is the image file created and then we should copy the image from obj.Image to the fileStream
+                    using (var fileStream = new FileStream(Path.Combine(path, FileName), FileMode.Create))
+                    {
+                        obj.Image.CopyTo(fileStream);
+                        obj.ImageUrl = @"\Images\VillaImage\" + FileName;
+                    }
+                }
+                else
+                {
+                    obj.ImageUrl = "https://placeholder.co/600x400";
+                }
+                _unitOfWork.VillaRepo.Add(obj);
+                _unitOfWork.Save();
                 TempData["Success"] = "Villa created successfully";
                 return RedirectToAction(nameof(Index));
             }
@@ -44,7 +60,7 @@ namespace WhiteLagoon.Web.Controllers
         }
         public IActionResult Update(int id)
         {
-            Villa? ObjFromDb = _villaService.GetVillaById(id);
+            Villa? ObjFromDb = _unitOfWork.VillaRepo.Get(v => v.Id == id);
             if(ObjFromDb == null)
             {
                 return RedirectToAction("Error", "Home");
@@ -60,7 +76,28 @@ namespace WhiteLagoon.Web.Controllers
             }
             if (ModelState.IsValid)
             {
-                _villaService.UpdateVilla(obj);
+                if (obj.Image != null)
+                {
+                    string FileName = Guid.NewGuid().ToString() + Path.GetExtension(obj.Image.FileName);
+                    string path = Path.Combine(_hostEnvironment.WebRootPath, @"Images\VillaImage");
+
+                    if (!string.IsNullOrEmpty(obj.ImageUrl))
+                    {
+                        string oldPath = Path.Combine(_hostEnvironment.WebRootPath, obj.ImageUrl.TrimStart('\\'));
+                        if (System.IO.File.Exists(oldPath))
+                        {
+                            System.IO.File.Delete(oldPath);
+                        }
+                    }
+                    using (var fileStream = new FileStream(Path.Combine(path, FileName), FileMode.Create))
+                    {
+                        obj.Image.CopyTo(fileStream);
+                        obj.ImageUrl = @"\Images\VillaImage\" + FileName;
+                    }
+                }
+
+                _unitOfWork.VillaRepo.Update(obj);
+                _unitOfWork.Save();
                 TempData["Success"] = "Villa updated successfully";
                 return RedirectToAction(nameof(Index));
             }
@@ -79,12 +116,23 @@ namespace WhiteLagoon.Web.Controllers
         [HttpPost]
         public IActionResult Delete(Villa obj)
         {
-            bool isDeleted = _villaService.DeleteVilla(obj.Id);
-            if(!isDeleted)
+            Villa? objFromDb = _unitOfWork.VillaRepo.Get(v => v.Id == obj.Id);
+            if(objFromDb == null)
             {
                 TempData["Error"] = "Villa not found";
                 return RedirectToAction("Error", "Home");
             }
+            
+            if (!string.IsNullOrEmpty(objFromDb.ImageUrl))
+            {
+                string oldPath = Path.Combine(_hostEnvironment.WebRootPath, objFromDb.ImageUrl.TrimStart('\\'));
+                if (System.IO.File.Exists(oldPath))
+                {
+                    System.IO.File.Delete(oldPath);
+                }
+            }
+            _unitOfWork.VillaRepo.Remove(objFromDb);
+            _unitOfWork.Save();
             TempData["Success"] = "Villa deleted successfully";
             return RedirectToAction(nameof(Index));
         }
