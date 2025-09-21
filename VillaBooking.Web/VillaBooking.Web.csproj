@@ -18,9 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VillaBooking.Application\WhiteLagoon.Application.csproj" />
-    <ProjectReference Include="..\VillaBooking.Domain\WhiteLagoon.Domain.csproj" />
-    <ProjectReference Include="..\VillaBooking.Infrastructure\WhiteLagoon.Infrastructure.csproj" />
+    <ProjectReference Include="..\VillaBooking.Application\VillaBooking.Application.csproj" />
+    <ProjectReference Include="..\VillaBooking.Domain\VillaBooking.Domain.csproj" />
+    <ProjectReference Include="..\VillaBooking.Infrastructure\VillaBooking.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

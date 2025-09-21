@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Web", "VillaBooking.Web\WhiteLagoon.Web.csproj", "{CFE42F4D-E32C-8AE0-2933-F49E5A704D9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillaBooking.Web", "VillaBooking.Web\VillaBooking.Web.csproj", "{CFE42F4D-E32C-8AE0-2933-F49E5A704D9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Infrastructure", "VillaBooking.Infrastructure\WhiteLagoon.Infrastructure.csproj", "{6BDC1BB2-2AA9-A8E0-36C6-B0E88EEF5E45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillaBooking.Infrastructure", "VillaBooking.Infrastructure\VillaBooking.Infrastructure.csproj", "{6BDC1BB2-2AA9-A8E0-36C6-B0E88EEF5E45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Domain", "VillaBooking.Domain\WhiteLagoon.Domain.csproj", "{5A9E1167-D7AE-2C3E-EF95-C07B345D7EEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillaBooking.Domain", "VillaBooking.Domain\VillaBooking.Domain.csproj", "{5A9E1167-D7AE-2C3E-EF95-C07B345D7EEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Application", "VillaBooking.Application\WhiteLagoon.Application.csproj", "{83D57653-2DBB-6970-8B30-718893B1BA05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillaBooking.Application", "VillaBooking.Application\VillaBooking.Application.csproj", "{83D57653-2DBB-6970-8B30-718893B1BA05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VillaBooking.Application\WhiteLagoon.Application.csproj" />
+    <ProjectReference Include="..\VillaBooking.Application\VillaBooking.Application.csproj" />
   </ItemGroup>
 
 </Project>
