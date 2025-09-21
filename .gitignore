@@ -31,3 +31,15 @@
 /WhiteLagoon.Infrastructure/obj/Debug/net9.0/WhiteLagoon.Infrastructure.assets.cache
 /WhiteLagoon.Infrastructure/obj/Debug/net9.0/WhiteLagoon.Infrastructure.csproj.AssemblyReference.cache
 /WhiteLagoon.Infrastructure/obj/Debug/net9.0/WhiteLagoon.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+*.dll
+*.pdb
+*.json
+/VillaBooking.Application/bin/Debug/net9.0/NOTICE.TXT
+/VillaBooking.Application/obj/Debug/net9.0
+/VillaBooking.Application/obj
+/VillaBooking.Domain/obj
+/VillaBooking.Infrastructure/bin/Debug/net9.0/NOTICE.TXT
+/VillaBooking.Infrastructure/obj
+/VillaBooking.Web/bin/Debug/net9.0
+/VillaBooking.Web/obj/Debug/net9.0
+/VillaBooking.Web/obj
